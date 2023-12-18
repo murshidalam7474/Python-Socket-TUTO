@@ -1,10 +1,3 @@
-# import socket
-# HOST ='192.168.29.176'
-# PORT=9090
-# socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-# socket.connect((HOST,PORT))
-# socket.send("hello world".encode('utf-8'))
-# print(socket.recv(1024).decode('utf-8'))
 import socket
 
 HOST = '192.168.29.176'
