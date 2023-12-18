@@ -1,18 +1,4 @@
-# import socket
-# #bind
-# HOST = '192.168.29.176'
-# PORT = 9090
-# server=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-# server.bind((HOST,PORT))
-# server.listen(5)
-# while True:
-#     comm_sock, address=server.accept()
-#     print(f"connected to {address}")
-#     message=comm_sock.recv(1024).decode('utf-8')
-#     print(f"message from client is ->  {message}")
-#     comm_sock.send(f"hey got ur message! thank you".encode('utf-8'))
-#     comm_sock.close()
-#     print(f"connection with {address} closeddd!")
+
 import socket
 
 # bind
